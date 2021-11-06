@@ -1,0 +1,35 @@
+
+
+.complete {
+    text-decoration: line-through;
+    opacity: 0.2;
+  }
+  
+.todo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: #fff;
+    background: #812744;
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+    font-size: 20px;
+  }
+
+.icons {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    cursor: pointer;
+  }
+ 
+.delete-icon {
+    margin-right: 5px;
+    color: #fff;
+  }
+  
+  .edit-icon {
+    color: #fff;
+  }
